@@ -24,3 +24,4 @@ laply(theList, sum)
 require(ggplot2)
 data("diamonds")
 aggregate(price ~ cut, diamonds, each(mean, median))
+

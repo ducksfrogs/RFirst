@@ -1,0 +1,13 @@
+install.packages('UsingR')
+require(UsingR)
+require(ggplot2)
+head(father.son)
+heightsLM <- lm(sheight ~ fheight, data = father.son)
+heightsLM
+summary(heightsLM)
+data(tips, package = 'reshape2')
+head(tips)
+tipsLM <- lm(tip ~ day -1, data = tips)
+tipsAnova <- aov(tip ~ day -1, data = tips)
+summary(tipsAnova)
+summary(tipsLM)
