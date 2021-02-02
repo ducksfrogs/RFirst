@@ -1,4 +1,5 @@
 install.packages('UsingR')
+require(tidyverse)
 require(UsingR)
 require(ggplot2)
 head(father.son)
