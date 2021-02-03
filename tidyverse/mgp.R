@@ -1,3 +1,4 @@
+require(tidyverse)
 mpg
 require(ggplot2)
 ggplot(data = mpg) +

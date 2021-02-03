@@ -1,1 +1,1 @@
-install.packages('nycflights13')
+require(nycflights13)
