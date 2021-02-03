@@ -1,6 +1,5 @@
 require(reshape2)
 head(tips)
-GGally::ggpars(tips)
 economics
 cov(economics$pce, economics$psavert)
 cov(economics[, c(2,4:6)])
